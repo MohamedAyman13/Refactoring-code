@@ -1,0 +1,181 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+font-family: Arial, sans-serif;
+background-color: #F2F4FF!important;
+}
+
+/* /////////////////////////////////////////////////////////////////////////////// */
+
+/* navbar */
+
+.navbar {
+    background-color: #93acb5;
+}
+
+.navbar-brand {
+    color: #F2F4FF;
+}
+
+a:hover {
+    color: #F2F4FF!important;
+}
+
+.nav-link {
+    color: #F2F4FF!important;
+}
+
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(242, 244, 255, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
+
+.navbar-toggler:focus {
+    outline: none!important;
+}
+
+/* /////////////////////////////////////////////////////////////////////////////// */
+
+
+/* post card */
+
+.card {
+border: 1px solid #ddd;
+margin-bottom: 20px;
+padding: 20px;
+box-shadow: 0 4px 8px #93acb52d;
+transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+transform: translateY(-5px);
+box-shadow: 0 8px 16px #93acb593;
+}
+
+.card h5 {
+font-size: 1.5rem;
+margin-bottom: 15px;
+color: #6C756B!important;
+}
+
+.card p {
+color: #666;
+line-height: 1.6;
+}
+
+.card .btn-primary {
+background-color: #A9D3FF;
+border: none;
+}
+
+.card .btn-primary:hover {
+background-color: #96C5F7;
+}
+
+/* /////////////////////////////////////////////////////////////////////////////// */
+
+/* sidebar */
+
+.sidebar {
+background-color: white;
+padding: 20px;
+border-radius: 8px;
+box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+margin-bottom: 20px;
+}
+
+.sidebar h3 {
+margin-bottom: 20px;
+font-size: 1.2rem;
+font-weight: 600;
+color: #6C756B;
+}
+
+.sidebar ul {
+list-style-type: none;
+padding-left: 0;
+}
+
+.sidebar ul li {
+margin-bottom: 10px;
+}
+
+.sidebar ul li a {
+color: #A9D3FF;
+text-decoration: none;
+transition: all 0.3s;
+}
+
+/* /////////////////////////////////////////////////////////////////////////////// */
+
+/* contact form */
+
+form h2 {
+    color: #6C756B;
+}
+
+div.contact-form button {
+    background-color: #A9D3FF!important;
+    color: #F2F4FF;
+    transition: all 0.3s;
+    margin-bottom: 15px!important;
+}
+
+div.contact-form input:focus {
+    outline-color: #A9D3FF!important;
+    color: #6C756B!important;
+}
+
+div.contact-form input[type="checkbox"]:checked {
+    background-color: #61adff!important;
+    border: 1px solid rgb(174, 174, 174)!important;
+}
+
+div.contact-form button:hover {
+    transform: scale(103%);
+    color: #F2F4FF!important;
+}
+
+
+.contact-img img {
+    height: 276px;
+    border-radius: 12px;
+    
+}
+
+/* /////////////////////////////////////////////////////////////////////////////// */
+
+/* back to top button */
+.back-to-top {
+    position: fixed;
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    background-color: #96C5F7;
+    bottom: 40px;
+    right: 50px;
+    text-decoration: none;
+    text-align: center;
+    line-height: 50px;
+    font-size: 22px;
+    color: #F2F4FF;
+    display: none;
+}
+
+/* /////////////////////////////////////////////////////////////////////////////// */
+
+/* footer */
+
+.footer {
+    background-color: #93acb5;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+}    
+
+.footer p {
+margin: 0;
+color: #F2F4FF
+}
